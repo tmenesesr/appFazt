@@ -29,6 +29,9 @@ app.use(session({
 // Global Varibles
 
 // Routes
+app.use(require('./routes/index.js'));
+app.use(require('./routes/notes.js'));
+app.use(require('./routes/users.js'));
 
 // Static Files
 
