@@ -18,6 +18,7 @@ app.engine('.hbs', exphbs.engine({
     extname: '.hbs'
 }));
 app.set('view engine', '.hbs');
+
 // Midlawares
 app.use(express.urlencoded({ extended: false }));
 app.use(methodOverride('_method'));
